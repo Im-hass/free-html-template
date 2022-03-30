@@ -1,0 +1,24 @@
+/* HEADER */
+header {
+  margin-top: 240px;
+  margin-bottom: 120px;
+  background-color: #fff;
+}
+
+header > .inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header .intro > h2 {
+  margin: 60px 0 30px;
+  font-size: 60px;
+  line-height: 80px;
+  font-weight: 700;
+}
+header .intro > p {
+  font-size: 12px;
+  line-height: 30px;
+  margin-bottom: 35px;
+}

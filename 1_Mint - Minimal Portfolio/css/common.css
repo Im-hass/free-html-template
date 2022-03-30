@@ -43,3 +43,10 @@ nav .menu {
   margin: 0 auto;
   position: relative;
 }
+
+.btn {
+  padding: 15px 25px 20px 35px;
+  display: inline-block;
+  background-color: #ffe600;
+  font-size: 15px;
+}
