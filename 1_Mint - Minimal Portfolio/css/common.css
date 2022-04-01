@@ -45,6 +45,7 @@ nav .menu {
 }
 
 .btn {
+  width: fit-content;
   padding: 15px 25px 20px 35px;
   display: inline-block;
   background-color: #ffe600;
@@ -58,6 +59,7 @@ nav .menu {
 
 .btn.btn-white {
   background-color: #fff;
+  transition: .3s;
 }
 .btn.btn-white.active {
   background-color: #ffe600;

@@ -19,3 +19,109 @@ header .intro > h2 {
 header .intro > p {
   margin-bottom: 35px;
 }
+
+/* WORK SHOWCASE */
+.work_showcase {
+  margin-bottom: 65px;
+}
+
+.work_showcase > .inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.work_showcase h2 {
+  margin-bottom: 50px;
+}
+
+.work_showcase .filter_box {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.work_showcase .filter_box > ul {
+  width: 390px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.work_showcase .filter_box > select {
+  width: 140px;
+  border: none;
+}
+
+.work_showcase .photo_box {
+  height: 830px;
+  margin-bottom: 65px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.work_showcase .photo_box > .photo {
+  width: 370px;
+  position: relative;
+  background-color: #ddd;
+  cursor: pointer;
+  overflow: hidden;
+}
+.work_showcase .photo_box > .photo::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 230, 0, .8);
+  opacity: 0;
+  transition: .5s;
+}
+.work_showcase .photo_box > .photo:hover::after {
+  opacity: 1;
+}
+.work_showcase .photo_box > .photo:nth-child(1),
+.work_showcase .photo_box > .photo:nth-child(4),
+.work_showcase .photo_box > .photo:nth-child(5) {
+  height: 300px;
+}
+.work_showcase .photo_box > .photo:nth-child(2),
+.work_showcase .photo_box > .photo:nth-child(3),
+.work_showcase .photo_box > .photo:nth-child(6) {
+  height: 500px;
+}
+.work_showcase .photo_box > .photo > img {
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+.work_showcase .photo_box > .photo > .text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  opacity: 0;
+  transition: .5s;
+}
+.work_showcase .photo_box > .photo > .text:hover {
+  opacity: 1;
+}
+.work_showcase .photo_box > .photo > .text > p:first-child {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.work_showcase .photo_box > .photo > .text > p:nth-child(2) {
+  font-size: 12px;
+}
+
+.work_showcase .btn.btn-more {
+  display: block;
+  margin: 0 auto;
+}
