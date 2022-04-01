@@ -67,6 +67,17 @@ a {
   text-decoration: none;
 }
 
-input {
+input, select {
 	outline: none;
+}
+
+/* CUSTOM */
+h2 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 12px;
+  line-height: 30px;
 }

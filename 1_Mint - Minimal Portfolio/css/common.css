@@ -50,3 +50,15 @@ nav .menu {
   background-color: #ffe600;
   font-size: 15px;
 }
+
+.btn.btn-sm {
+  padding: 8px 16px 12px 20px;
+  font-size: 12px;
+}
+
+.btn.btn-white {
+  background-color: #fff;
+}
+.btn.btn-white.active {
+  background-color: #ffe600;
+}
