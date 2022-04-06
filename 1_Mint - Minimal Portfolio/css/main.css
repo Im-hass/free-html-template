@@ -125,3 +125,40 @@ header .intro > p {
   display: block;
   margin: 0 auto;
 }
+
+/* PARTICIPATING COMPANY */
+.participating_company {
+  margin-bottom: 120px;
+}
+
+.participating_company .partners-line {
+  position: relative;
+}
+
+.participating_company .partners-line .bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fdfdfd;
+}
+
+.participating_company .partners-line .inner {
+  height: 336px;
+}
+
+.participating_company .partners-line .partners {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.participating_company .partners > img {
+  margin-right: 100px;
+}
+
+.participating_company .partners > img:last-child {
+  margin-right: 0;
+}
