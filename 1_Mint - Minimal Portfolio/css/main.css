@@ -237,3 +237,79 @@ header .intro > p {
   background-color: transparent;
   cursor: pointer;
 }
+
+/* OUR BLOG */
+.our_blog {
+  margin-bottom: 120px;
+}
+.our_blog .blog-line {
+  position: relative;
+  padding: 120px 0;
+}
+.our_blog .blog-line .bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fdfdfd;
+}
+
+.our_blog > .inner {
+  display: flex;
+  flex-direction: column;
+}
+.our_blog .inner > p {
+  width: 565px;
+  margin-bottom: 50px;
+}
+
+.our_blog .posts {
+  display: flex;
+  justify-content: space-between;
+}
+.our_blog .posts .post {
+  width: 370px;
+  height: 460px;
+  position: relative;
+  background-color: #fff;
+  cursor: pointer;
+}
+.our_blog .posts .post::after {
+  content: "READ MORE";
+  display: block;
+  width: 100%;
+  height: 280px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 280px;
+  background: rgba(255, 230, 0, .8);
+  opacity: 0;
+  transition: .5s;
+}
+.our_blog .posts .post:hover::after {
+  opacity: 1;
+}
+
+.our_blog .posts .post img {
+  width: 100%;
+  height: 280px;
+  position: relative;
+  background-color: #edf2f6;
+}
+
+.our_blog .posts .post .info h3 {
+  margin: 30px 25px 20px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.our_blog .posts .post .info p {
+  margin-left: 20px;
+}
+.our_blog .posts .post .info p:last-child {
+  margin-left: 25px;
+}
