@@ -91,3 +91,38 @@ nav .menu li a:hover::after {
 .btn.btn-white.active {
   background-color: #ffe600;
 }
+
+/* FOOTER */
+footer {
+  width: 100%;
+  height: 180px;
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+footer .inner {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p,
+footer img {
+  margin: 0;
+  display: inline-block;
+}
+
+footer .copyrigth {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer .copyrigth img {
+  margin-right: 30px;
+}
+
+footer #to-top {
+  cursor: pointer;
+}
