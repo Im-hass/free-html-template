@@ -188,10 +188,10 @@ header .intro > p {
 
 .about_us .persone-list .persone {
   position: relative;
+  overflow: hidden;
 }
 .about_us .persone-list .persone > img {
   width: 100%;
-  height: 100%;
 }
 
 .about_us .persone-list .persone > .name-tag {
