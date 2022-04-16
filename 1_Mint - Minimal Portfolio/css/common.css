@@ -10,6 +10,11 @@ nav {
   position: fixed;
   top: 0;
   background-color: #fff;
+  transition: top 0.2s ease-in-out;
+}
+
+.nav-up {
+  top: -120px;
 }
 
 nav > .inner {
